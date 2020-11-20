@@ -1,4 +1,4 @@
-import base64 as ispclub
+import base64 as isp
 import webbrowser
 import time
 def ispclub(cre):
@@ -13,7 +13,7 @@ def ispclub(cre):
 def prompt():
   return bytes(input("input\t"), 'utf-8')
 def obfuscate(bys):
-  fusc = ispclub.b64encode(bys)
+  fusc = isp.b64encode(bys)
   fusc += b"ispclub6910832"
   fusc = str(fusc)
   fusc = fusc[2:len(fusc)-1]
