@@ -11,5 +11,5 @@ const flag = require('./flag.js')
 	} else {
 		console.log(encode(CryptoJS.AES.encrypt(randomstring.generate(37), pass).toString()))
 	}
-	// <~<AI$bA4K[9=>;=-2L'(*=u%sPAhRqDCe?TBECaY41O:].D(eS/A1qRf<&Jf#<-)k8=]7plCb\Om1f>uJ2g97[0/[Q5;Iq\-6o&IQ1/^k^G>ULd~>
+	// output console: <AI$bA4K[9=>;=-2L'(*=u%sPAhRqDCe?TBECaY41O:].D(eS/A1qRf<&Jf#<-)k8=]7plCb\Om1f>uJ2g97[0/[Q5;Iq\-6o&IQ1/^k^G>ULd
 })()
